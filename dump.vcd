@@ -1,0 +1,196 @@
+$date
+	Tue Mar 26 19:41:54 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_traffic_light_controller $end
+$var wire 1 ! yellow_light $end
+$var wire 1 " red_light $end
+$var wire 1 # green_light $end
+$var reg 1 $ clk $end
+$var reg 1 % reset $end
+$scope module DUT $end
+$var wire 1 $ clk $end
+$var wire 1 % reset $end
+$var reg 1 # green_light $end
+$var reg 2 & next_state [1:0] $end
+$var reg 2 ' present_state [1:0] $end
+$var reg 1 " red_light $end
+$var reg 1 ! yellow_light $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#10
+$dumpvars
+b0 '
+b1 &
+1%
+0$
+0#
+0"
+0!
+$end
+#15
+b10 &
+1"
+b1 '
+1$
+#20
+0$
+#25
+1!
+0"
+b11 &
+b10 '
+1$
+#30
+0$
+#35
+b0 &
+1#
+0!
+b11 '
+1$
+#40
+0$
+#45
+0#
+b1 &
+b0 '
+1$
+#50
+0$
+#55
+b10 &
+1"
+b1 '
+1$
+#60
+0"
+b1 &
+b0 '
+0$
+0%
+#65
+1$
+#70
+0$
+#75
+1$
+#80
+0$
+#85
+1$
+#90
+0$
+#95
+1$
+#100
+0$
+#105
+1$
+#110
+0$
+#115
+1$
+#120
+0$
+#125
+1$
+#130
+0$
+1%
+#135
+b10 &
+1"
+b1 '
+1$
+#140
+0$
+#145
+1!
+0"
+b11 &
+b10 '
+1$
+#150
+0$
+#155
+b0 &
+1#
+0!
+b11 '
+1$
+#160
+0$
+#165
+0#
+b1 &
+b0 '
+1$
+#170
+0$
+#175
+b10 &
+1"
+b1 '
+1$
+#180
+0$
+#185
+1!
+0"
+b11 &
+b10 '
+1$
+#190
+0$
+#195
+b0 &
+1#
+0!
+b11 '
+1$
+#200
+0$
+#205
+0#
+b1 &
+b0 '
+1$
+#210
+0$
+#215
+b10 &
+1"
+b1 '
+1$
+#220
+0$
+#225
+1!
+0"
+b11 &
+b10 '
+1$
+#230
+0$
+#235
+b0 &
+1#
+0!
+b11 '
+1$
+#240
+0$
+#245
+0#
+b1 &
+b0 '
+1$
+#250
+0$
